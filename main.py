@@ -14,13 +14,12 @@ def is_power_of_two(n: int) -> bool:
         2**10
     ]
 
-    for resultados_1 in resultados:
-        print(resultados_1)
-        
-        if resultados_1 == n:
-            return True
+    return n in resultados
 
-        else:
-            return False
+    
 
+print(is_power_of_two(1))
+print(is_power_of_two(16))
+print(is_power_of_two(0))
 print(is_power_of_two(6))
+print(is_power_of_two(1024))
