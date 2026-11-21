@@ -1,0 +1,2 @@
+# Es Potencia De Dos
+## Tenía que validar por false y true si era potencia elevado entre 2 por lo que me entregaba ## la función def is_power_of_two(n: int) -> bool y me entregaba un entero declarado en la ##función y me entregaba como resultado un booleano.
