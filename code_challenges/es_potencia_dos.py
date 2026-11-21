@@ -15,11 +15,3 @@ def is_power_of_two(n: int) -> bool:
     ]
 
     return n in resultados
-
-    
-
-print(is_power_of_two(1))
-print(is_power_of_two(16))
-print(is_power_of_two(0))
-print(is_power_of_two(6))
-print(is_power_of_two(1024))
