@@ -1,4 +1,4 @@
-# ¿Contiene Caracter?
+# ¿Es Divisible?
 ## ¿Que entendí?
 Debia usar los parametros value y divisor para encontrar si era divisible y devolver un bool al final de la respuesta.
 ## ¿Como lo resolvi?
