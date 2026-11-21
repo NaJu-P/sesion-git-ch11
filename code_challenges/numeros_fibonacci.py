@@ -1,23 +1,12 @@
 def is_fibonacci(n: int) -> bool:
-    contador = 1
-    comprobacion = False
-    calculo_1 = 5*(n*n)+4
-    calculo_2 = 5*(n*n)-4
-    resultado = contador**2
-
-    while contador <= 89:
-        print(resultado)
-
-        if calculo_1 == resultado:
-            print("si")
-            comprobacion =  True
+    
+    calculo = pow(5*(n*n)+4, 0.5)
+    
+    if calculo.is_integer():
+        calculo = int(calculo)
         
-        elif calculo_2 == resultado:
-            print("double si")
-            comprobacion = True
-
-        contador += 1
-
-    return comprobacion
-
-print(is_fibonacci(21))
+    if isinstance(calculo, int):
+        return True
+    
+    else:
+        return False
